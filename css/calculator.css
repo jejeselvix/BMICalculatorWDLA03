@@ -1,0 +1,310 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(red, green, blue, alpha); */
+    background-color: #EEF5FF;
+}
+
+nav{
+    display: flex;
+    background-color: #EEF5FF;
+}
+
+nav ul{
+    padding: 9px 0px;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    color: #000;
+    text-decoration: none;
+    padding: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+nav ul li:hover a.logout{
+    background: linear-gradient(90deg, #F9EC7D, #F5B100);
+    color:black;
+}
+
+nav ul li:hover a{
+    color: #F5B100;
+}
+
+nav li a.logout{
+    margin-left: 650px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 10px 35px;
+    text-align: center;
+    background: linear-gradient(90deg, #FFB2B2, #FF4040);
+    box-shadow: rgba(64, 123, 255, 0.5) 0 2px 4px, rgba(#407BFF, 0.5) 0 7px 13px -3px inset ;
+    color: white;
+    font-size: 15px;
+    border: 0;
+}
+
+nav li a.now{
+    color: black;
+    font-weight: bold;
+}
+
+.container{
+    margin-top: -3%;
+}
+
+.container .header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: 180px;
+    margin-left: -120px;
+    padding-left: 10%;
+}
+
+.height{
+    margin-left: 4.9%;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.inputheight{
+    position: relative;
+    font-size: 20px;
+    width: 25%;
+    padding: 5px;
+    margin-bottom: 15px;
+    top: -25px;
+    margin-left: 5%;
+    background-color: #EEF5FF;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+}
+
+.weight{
+    margin-top: -5px;
+    margin-left: 4.9%;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.inputweight{
+    position: relative;
+    font-size: 20px;
+    width: 25%;
+    padding: 5px;
+    margin-bottom: 15px;
+    top: -25px;
+    margin-left: 5%;
+    background-color: #EEF5FF;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+}
+
+.calculate {
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #F9EC7D, #F5B100);
+    box-shadow: rgba(246, 183, 14, 0.5) 0 2px 4px, rgba(246, 183, 14, 0.5) 0 7px 13px -3px inset ;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0;
+    margin-left: 5%;
+    margin-top: -25px;
+  }
+
+  .calculate:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #F9EC7D 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+
+  .image1{
+    margin-top: -30%;
+    margin-left: 50%;
+    width: 650px;
+  }
+
+  .bmi{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 60px;
+      margin-left: 80px;
+      margin-top: -130px;
+  }
+
+  .BMINominal{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    margin-left: 250px;
+    margin-top: -120px;
+  }
+
+  .BMIStatus{
+    font-family: monospace;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: -50px;
+  }
+
+  .line3a{
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 60px;
+    margin-left: 22%;
+    padding-left: 10%;
+}
+
+.line3b{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -60.5px;
+    margin-left: 37.5%;
+    padding-left: 10%;
+}
+
+.container3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2%;
+}
+
+.FS{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.FS .second{
+    margin-top: -35px;
+}
+
+.text{
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.text .second{
+    margin-top: -10px;
+}
+
+.bottom{
+    margin-left: 18px;
+    margin-top: 20px;
+}
+
+.firstline{
+    margin-left: 50%;
+    margin-top: -35%;
+}
+
+.firstline .fa-circle{
+    font-size: 80px;
+    color: #E3E5FF
+}
+
+.suggest1{
+    margin-top: -90px;
+    margin-left: 98px;
+}
+
+.text1{
+    margin-top: -10px;
+    margin-left: 100px;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-right: 3%;
+}
+
+.secondline{
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.secondline .fa-circle{
+    font-size: 80px;
+    color: #EFF0E9
+}
+
+.suggest2{
+    margin-top: -90px;
+    margin-left: 98px;
+}
+
+.text2{
+    margin-top: -10px;
+    margin-left: 100px;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-right: 3%;
+}
+
+.thirdline{
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.thirdline .fa-circle{
+    font-size: 80px;
+    color: #E3E5FF
+}
+
+.suggest3{
+    margin-top: -90px;
+    margin-left: 98px;
+}
+
+.text3{
+    margin-top: -10px;
+    margin-left: 100px;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-right: 3%;
+}
+
+.lastone{
+    margin-top: 70px;
+    background-color: #C7DEFF;
+    padding-top:0px;
+    border-radius: 15px;
+}
+
+.last{
+    position: relative;
+    margin-left: 100px;
+    top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+.btnRead{
+    position: relative;
+    border-radius: 30px;
+    padding: 8px 40px;
+    text-align: center;
+    background: linear-gradient(90deg, #F9EC7D, #F5B100);
+    box-shadow: rgba(246, 183, 14, 0.5) 0 2px 4px, rgba(246, 183, 14, 0.5) 0 7px 13px -3px inset ;
+    color: black;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0;
+    font-weight: 600;
+    top: -30px;
+    margin-left: 70%;
+}

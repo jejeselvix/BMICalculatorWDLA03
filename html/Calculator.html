@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="../css/calculator.css" />
+    <script src="https://kit.fontawesome.com/1761a6ca5b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="menu">
+        <ul>
+          <li><a href="Dashboard.html">Dashboard</a></li>
+          <li><a class="now" href="Calculator.html">BMI Calculator</a></li>
+          <li><a href="BMI_Tracking.html">BMI Tracking</a></li>
+          <li><a href="BMI_Advisor.html">BMI Advisor</a></li>
+          <li><a class="logout" href="Login.html">LOG OUT <i class="fas fa-power-off"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="header">Let's <strong>Calculate</strong></h1>
+      <h4 class="height">Height(cm) </h4>
+      <input id="inputH" class="inputheight" type="number" required />
+      <h4 class="weight">Weight(kg)</h4>
+      <input id="inputW" class="inputweight" type="number" required />
+      <br>
+      <button id="calculateBmi" class="calculate" role="button" onclick="bmiCalc()">CALCULATE <i class="fas fa-chevron-circle-right"></i></button>
+      <img class="image1" src="/Asset/calculate.png">
+      <h2 class="bmi">BMI - </h2>
+      <h2 id="BMINominal1" class="BMINominal">0.0</h2>
+      <h2 id="BMIStatus1" class="BMIStatus">Status</h2>
+      <h2 class="line3a"><i class="fas fa-chevron-circle-down"></i> Scroll down for</h2>
+      <h2 class="line3b">Personalized Advice <i class="fas fa-chevron-circle-down"></i></h2>
+    </div>
+
+    <div class="container3">
+      <div class="FS" >
+          <h1>Here’s our advice for</h1>
+          <h1 class="second">underweight category</h1>
+      </div>
+      <div class="text">
+          <p>Try to consume more protein as well as routine</p>
+          <p class="second">workout for make sure your body in the right shape.</p>
+      </div>
+      <img class="bottom" src="/Asset/calculator.png" alt="">
+      <div class="firstline">
+          <i class="fas fa-circle"></i>
+          <h2 class="suggest1">Suggestion 1</h2>
+          <p class="text1">Many things can affect your weight, including genetics, age, gender, lifestyle, family habits and culture, sleep, 
+              and even where you live and work. Some of these factors can make it hard to lose weight or keep weight off.</p>
+      </div>
+      <div class="secondline">
+          <i class="fas fa-circle"></i>
+          <h2 class="suggest2">Suggestion 2</h2>
+          <p class="text2">But being active and choosing healthy foods has health benefits for everyone—no matter your age or weight. 
+              It’s important to choose nutrient-dense foods and be active at least 150 minutes per week. As a rule of thumb:</p>
+      </div>
+      <div class="thirdline">
+          <i class="fas fa-circle"></i>
+          <h2 class="suggest3">Suggestion 3</h2>
+          <p class="text3">To keep your weight the same, you need to burn the same number of calories as you eat and drink. ,To lose weight, 
+              burn more calories than you eat and drink. ,To gain weight, burn fewer calories than you eat and drink.</p>
+      </div>
+  </div>
+
+  <div class="lastone">
+    <h1 class="last">Feel motivated to <strong>READ MORE ADVICE?</strong></h1>
+    <a href="BMI_Advisor.html">
+      <button class="btnRead">Go to Advisor <i class="fas fa-chevron-circle-right"></i></button>
+    </a>
+  </div>
+
+    <script src="../js/Calculator.js"></script>
+  </body>
+</html>

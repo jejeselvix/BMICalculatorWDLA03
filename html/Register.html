@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register.css" />
+    <script src="https://kit.fontawesome.com/1761a6ca5b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="welcome">Register To</h1>
+      <h1 class="titlelogin">BMI Calculator</h1>
+      <p class="judullogin">Register your account here</p>
+      <div class="isi">
+        <form id="formRegister">
+          <label for="uname" class="judultxtf"><b>Name</b></label> <br />
+          <input id="name" type="text" name="name" class="textfield" />
+          <br />
+          <label for="uname" class="judultxtf"><b>Username</b></label> <br />
+          <input id="username" type="text" name="uname" class="textfield" />
+          <br />
+          <label for="uname" class="judultxtf"><b>Email</b></label> <br />
+          <input id="email" type="email" name="email" class="textfield" />
+          <br />
+          <label for="pswrd" class="judultxtf"><b>Password</b></label>
+          <br />
+          <input id="pass" type="password" name="pswrd" class="textfield" />
+          <br />
+          <button type="button" class="btnlogin" onclick="register()">SIGN UP <i class="fas fa-chevron-circle-right"></i></button><br />
+        </form>
+      </div>
+    </div>
+
+    <div class="container2">
+      <img src="/Asset/register.png">
+      <p class="line2a">Already</p>
+      <p class="line2b">have account?</p>
+      <a href="Login.html">
+        <button class="btnRegister">LOGIN <i class="fas fa-chevron-circle-right"></i></button><br />
+      </a>
+    </div>
+
+    <script src="../js/register.js"></script>
+  </body>
+</html>

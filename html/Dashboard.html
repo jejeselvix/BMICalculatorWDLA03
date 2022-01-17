@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <script src="https://kit.fontawesome.com/1761a6ca5b.js" crossorigin="anonymous"></script>
+    <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <ul>
+                <li><a class="now" href="Dashboard.html">Dashboard</a></li>
+                <li><a href="Calculator.html">BMI Calculator</a></li>
+                <li><a href="BMI_Tracking.html">BMI Tracking</a></li>
+                <li><a href="BMI_Advisor.html">BMI Advisor</a></li>
+                <li><a class="logout" href="Login.html">LOG OUT <i class="fas fa-power-off"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+        <div class="container-1">
+            <h1 class="line1a">Check your</h1>
+            <h1 class="line1b">BMI</h1>
+            <h2 class="line2a">Get</h2>
+            <h2 class="line2b">Personalized Advice</h2>
+            <a href="Calculator.html">
+                <button class="btnCalc">Go to BMI Calculator <i class="fas fa-chevron-circle-right"></i></button><br />
+            </a>
+            <a href="BMI_Tracking.html">
+                <button class="btnChart"><i class="fas fa-chevron-circle-right"></i> Your BMI Chart</button><br />
+            </a>
+            <img src="/Asset/dashboard.png">
+            <h2 class="line3a"><i class="fas fa-chevron-circle-down"></i> Scroll down for</h2>
+            <h2 class="line3b">MORE <i class="fas fa-chevron-circle-down"></i></h2>
+            <!-- <button class="record">Last <strong>BMI Record</strong></button> -->
+        </div>
+
+        <div class="container">
+            <button class="record">Last <strong>BMI Record</strong></button>
+            <div class="TC">
+                <h1 class="header">21.2</h1>
+                <div class="TC2">
+                    <label class="header2">Normal</label>
+                    <h2 class="header3">Calculated on: 13 January 2022</h2>
+                </div>
+                <div>
+                    <a href="BMI_Advisor.html">
+                        <button class="btnRead">Read <strong>Advice </strong><i class="fas fa-chevron-circle-right"></i></button>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="TS">
+                <h1 class="header">19.5</h1>
+                <div class="TS2">
+                    <label class="header2">Normal</label>
+                    <h2 class="header3">Calculated on: 10 January 2022</h2>
+                </div>
+                <div>
+                    <a href="BMI_Advisor.html">
+                        <button class="btnRead">Read <strong>Advice </strong><i class="fas fa-chevron-circle-right"></i></button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="TT">
+                <h1 class="header">18.0</h1>
+                <div class="TT2">
+                    <label class="header2">Underweight</label>
+                    <h2 class="header3">Calculated on: 2 January 2022</h2>
+                </div>
+                <div>
+                    <a href="BMI_Advisor.html">
+                        <button class="btnRead">Read <strong>Advice </strong><i class="fas fa-chevron-circle-right"></i></button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="TF">
+                <h1 class="header">17.0</h1>
+                <div class="TF2">
+                    <label class="header2">Underweight</label>
+                    <h2 class="header3">Calculated on: 1 January 2022</h2>
+                </div>
+                <div>
+                    <a href="BMI_Advisor.html">
+                        <button class="btnRead">Read <strong>Advice </strong><i class="fas fa-chevron-circle-right"></i></button>
+                    </a>
+                </div>
+            </div>
+            <button class="record2">Because your last <strong>BMI </strong>was <strong>Normal</strong></button>
+        </div>
+
+        <div class="container3">
+            <div class="FS" >
+                <h1>Keep your BMI Score on</h1>
+                <h1 class="second">Optimal level</h1>
+            </div>
+            <div class="text">
+                <p>Try to consume more protein as well as routine</p>
+                <p class="second">workout for make sure your body in the right shape.</p>
+            </div>
+            <img class="bottom" src="/Asset/dashboard2.png" alt="">
+            <div class="firstline">
+                <i class="fas fa-circle"></i>
+                <h2 class="suggest1">Suggestion 1</h2>
+                <p class="text1">Many things can affect your weight, including genetics, age, gender, lifestyle, family habits and culture, sleep, 
+                    and even where you live and work. Some of these factors can make it hard to lose weight or keep weight off.</p>
+            </div>
+            <div class="secondline">
+                <i class="fas fa-circle"></i>
+                <h2 class="suggest2">Suggestion 2</h2>
+                <p class="text2">But being active and choosing healthy foods has health benefits for everyone—no matter your age or weight. 
+                    It’s important to choose nutrient-dense foods and be active at least 150 minutes per week. As a rule of thumb:</p>
+            </div>
+            <div class="thirdline">
+                <i class="fas fa-circle"></i>
+                <h2 class="suggest3">Suggestion 3</h2>
+                <p class="text3">To keep your weight the same, you need to burn the same number of calories as you eat and drink. ,To lose weight, 
+                    burn more calories than you eat and drink. ,To gain weight, burn fewer calories than you eat and drink.</p>
+            </div>
+        </div>
+            <script src="../js/Dashboard.js"></script>
+</body>
+</html>

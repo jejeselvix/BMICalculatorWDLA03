@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(red, green, blue, alpha); */
+    background-color: #EEF5FF;
+}
+
+nav{
+    display: flex;
+    background-color: #EEF5FF;
+}
+
+nav ul{
+    padding: 9px 0px;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    color: #000;
+    text-decoration: none;
+    padding: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+nav ul li:hover a.logout{
+    background: linear-gradient(90deg, #F9EC7D, #F5B100);
+    color:black;
+}
+
+nav ul li:hover a{
+    color: #F5B100;
+}
+
+nav li a.logout{
+    margin-left: 650px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 10px 35px;
+    text-align: center;
+    background: linear-gradient(90deg, #FFB2B2, #FF4040);
+    box-shadow: rgba(64, 123, 255, 0.5) 0 2px 4px, rgba(#407BFF, 0.5) 0 7px 13px -3px inset ;
+    color: white;
+    font-size: 15px;
+    border: 0;
+}
+
+nav li a.now{
+    color: black;
+    font-weight: bold;
+}
+
+.navigation {
+    grid-area: navigation;
+}
+.left-coloumn {
+    grid-area: left-coloumn;
+}
+.right-coloumn {
+    grid-area: right-coloumn;
+}
+
+#wrapper{
+    margin-left: 3%;
+    display:flex;
+    flex-direction:row;
+}
+
+#page-title {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+#body_ctgrs {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0 15px;
+    text-align: center;
+}
+#cbody_ctgrs ul {
+    text-align: left;
+}
+#body_ctgrs h2 {
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    line-height: 34px;
+    padding: 15px 15px 0;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    display: black;
+    margin: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+#body_ctgrs p {
+    color: #fff;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    line-height: 1.45;
+    position: relative;
+    overflow: hidden;
+    max-height: 500px;
+    padding: 5px 5px 5px 5px;
+    will-change: max-height;
+    contain: layout;
+    display: inline-block;
+    opacity: 1;
+    transform: translate(0,0);
+    margin-bottom: 5px 50px 0 15px;
+    transition: .3s opacity, .6s max-height;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    z-index: 2;
+}
+#body_ctgrs ul {
+    list-style: none;
+    perspective: 900;
+    padding: 0;
+    margin:  0;
+}
+#body_ctgrs ul li {
+    position:  relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background: #30475e;
+}
+#body_ctgrs ul li + li {
+    margin-top: 15px;
+}
+#body_ctgrs ul li:last-of-type {
+    padding-bottom: 0%;
+}
+#body_ctgrs ul li i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 28px;
+    right: 15px;
+}
+#body_ctgrs ul li i:before,
+ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: #f05454;
+    width: 3px;
+    height: 9px;
+}
+#body_ctgrs ul li i:before {
+    transform: translate(2px, 0) rotate(45deg);
+}
+#body_ctgrs ul li i:after {
+    transform: translate(-2px, 0)rotate(-45deg);
+}
+#body_ctgrs ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    touch-action: manipulation;
+}
+#body_ctgrs ul li input[type=checkbox]:checked ~ h2 {
+    color: #fff;
+} 
+#body_ctgrs ul li input[type=checkbox]:checked ~ p {
+    margin: 0;
+    max-height: 0;
+    transition: .3s;
+    opacity: 0;
+} 
+#body_ctgrs ul li input[type=checkbox]:checked ~ i:before {
+    transform: translate(2px, 0)rotate(45deg);
+    background: #fff;
+} 
+#body_ctgrs ul li input[type=checkbox]:checked ~ i:after {
+    transform: translate(-2px, 0)rotate(45deg);
+    background: #fff;
+} 
+.transition, p, ul li i:before, ul li i:after {
+    transition: all 0.3s;
+}
+
+#image-box {
+    max-width: 650px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 0 15px;
+}
+
+.gambarchartcontainer{
+    margin-left: 100px;
+    align-self: center;
+  }
+
+.titleTracker{
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+.first{
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.first .first{
+    font-size: 60px;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+
+.first .second{
+    font-size: 60px;
+    margin-top: -35px;
+    margin-left: 30px;
+}
+
+.satu{
+    margin-left: 27%;
+    margin-top: -140px;
+    font-size: 25px;
+}
+.dua
+{
+    margin-top: -15px;
+    margin-left: 27.3%;
+    font-size: 25px;
+}
+
+.fa-circle{
+    font-size: 80px;
+    color: #EFF0E9;
+}
+
+.circles1{
+    margin-left: 70%;
+    margin-top: -7%;
+}

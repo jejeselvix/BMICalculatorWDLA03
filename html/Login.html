@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/1761a6ca5b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="welcome">Welcome To</h1>
+      <h1 class="titlelogin">BMI Calculator</h1>
+      <p class="judullogin">Login with your account</p>
+      <div class="isi">
+        <label for="uname" class="judultxtf"><b>Username</b></label>
+        <br />
+        <input id="name" type="text" name="uname" class="textfield" />
+        <br />
+        <label for="pswrd" class="judultxtf"><b>Password</b></label>
+        <br />
+        <input id="pass" type="password" name="pswrd" class="textfield" />
+        <br />
+        <button id="login" class="btnlogin" onclick="login()">LOGIN <i class="fas fa-chevron-circle-right"></i></button><br />
+      </div>
+
+      <div class="container2">
+        <img src="/Asset/login.png">
+        <p class="line">Didn't have account?</p>
+        <p class="line2a">Register</p>
+        <p class="line2b">for FREE</p>
+        <a href="Register.html">
+          <button class="btnRegister">REGISTER <i class="fas fa-chevron-circle-right"></i></button><br />
+        </a>
+      </div>
+
+    </div>
+
+    <script src="../js/login.js"></script>
+  </body>
+</html>
